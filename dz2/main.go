@@ -1,3 +1,4 @@
+// Задача Чудные вхождения в массив
 package main
 
 import "fmt"
@@ -7,6 +8,7 @@ func main() {
 	fmt.Println(Solution(arr))
 }
 
+//O(n) по времени, O(1) по памяти, скорее всего быстрее невозможно
 func Solution(A []int) int {
 	var result int
 	for i := 0; i < len(A); i++ {
