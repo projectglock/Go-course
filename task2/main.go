@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(Solution(arr))
 }
 
+//основная идея - делаем XOR по всем элементам, результатом будет то число без пары
 //O(n) по времени, O(1) по памяти, скорее всего быстрее невозможно
 func Solution(A []int) int {
 	var result int

@@ -20,7 +20,6 @@ func Solution(A []int, K int) []int {
 		pos := (i + K) % len(A)
 		new_arr[pos] = A[i]
 	}
-	fmt.Println(&(A[2]))
 	return new_arr
 }
 
