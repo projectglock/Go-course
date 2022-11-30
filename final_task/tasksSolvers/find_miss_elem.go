@@ -1,6 +1,6 @@
 // Задача Поиск отсутствующего элемента
 // Копия для использования в финальной задаче
-package internal
+package tasksSolvers
 
 import (
 	"sort"

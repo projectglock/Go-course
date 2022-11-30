@@ -1,6 +1,6 @@
 // Задача Циклическая ротация
 // Копия для использования в финальной задаче
-package internal
+package tasksSolvers
 
 //O(n) по времени и O(n) по памяти получается
 func CyclicRotationSolve(A []int, K int) []int {
